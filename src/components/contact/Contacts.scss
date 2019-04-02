@@ -1,0 +1,16 @@
+.column-contact-left {
+  display: flex;
+  justify-content: right;
+}
+
+.column-contact-right {
+  display: flex; 
+  justify-content: left;
+}
+
+@media screen and (max-width: 992px) {
+  .column-contact-left, .column-contact-right {
+    display: flex;
+     justify-content: center;
+  }
+}

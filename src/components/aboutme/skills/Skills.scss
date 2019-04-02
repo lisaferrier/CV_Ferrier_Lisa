@@ -1,0 +1,21 @@
+.skills-icon {
+  font-size: 2em;/* 
+}
+
+.skills-icon:hover {
+/*   -webkit-animation: pulse-shadow--collection 2s infinite;
+animation: pulse-shadow--collection 2s infinite; */
+}
+
+.icon-skills {
+  margin: 1em;
+}
+
+@media screen and (max-width: 992px) {
+  .skills-icon {
+    font-size: 2em !important;
+  }
+  .text-skills {
+    font-size: 0.9em;
+  }
+}

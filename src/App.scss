@@ -1,0 +1,207 @@
+@import "./components/style/variable.scss";
+
+.ui.icon.center.aligned.header {
+  font-family: $Astloch!important;
+}
+
+.ui.button {
+  border-radius: unset !important;
+}
+
+body { 
+  font-family: $Tajawal !important;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.nav-text {
+  display: block;
+}
+
+ #root {
+   background: #F9F9F9;
+  }
+
+.hover-link:hover, .link-nav:hover {
+  color: greenyellow !important;
+}
+
+.ui.button:hover {
+  background-color: greenyellow!important;
+}
+
+.ui.icon.center.aligned.header {
+  margin: 0 0 2em 0 ;
+  font-size: 2em;
+}
+
+#resume, #skills, #formation, #projets, #portfolio, #contact, #download-cv {
+  margin: 5em 0;
+}
+.green-divider {
+  background-color: greenyellow;
+  width: 10vw;
+  height: 0.5em;
+  margin: 5vh -60px;
+}
+
+.logo-wcs {
+  width: 100%!important;
+}
+
+.logo-smartsailors {
+  width: 100%!important;
+}
+
+.right.aligned.floated.six.wide.computer.sixteen.mobile.column.column-git {
+padding: 20px 50px;
+font-size: 1.2em;
+}
+
+.content.title-part {
+  z-index: 10;
+  width: 15vw;
+  background-color: greenyellow;
+  overflow: hidden 50px;
+  -ms-transform: skewY(20deg); /* IE 9 */
+  -webkit-transform: skewY(20deg); /* Safari 3-8 */
+  transform: skewY(-5deg);
+  -webkit-box-shadow: 15px 15px 0px 0px rgba(8,8,8,1);
+  -moz-box-shadow: 15px 15px 0px 0px rgba(8,8,8,1);
+  box-shadow: 15px 15px 0px 0px rgba(8,8,8,1);
+}
+.ui.container.container-bottom {
+  background-color: black;
+  width: 100vw;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 0.9em !important;
+  }
+  #resume, #skills, #formation, #projets, #portfolio, #contact, #download-cv {
+    margin: 0em 0;
+  }
+
+  header {
+    padding-top: 10px !important;
+  }
+
+  .nav-text {
+    display: none 
+  }
+  
+  .burger-menu {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: auto;
+    background: #080808bd;
+    line-height: 2em;
+    padding: 1em ;
+    text-align: center;
+    z-index: 500;
+    text-decoration: underline;
+    color: white;
+    a {
+      color: white;
+    }
+  }
+  
+  .right.aligned.floated.six.wide.computer.sixteen.mobile.column.column-git {
+    font-size: 0.9em;
+  }
+
+  .ui.icon.center.aligned.header {
+    margin: 0em 0 1em 0 ;
+    font-size: 1.8em;
+  }
+
+  .ui.container.container-bottom {
+    background-color: black;
+    width: 100vw;
+  }
+
+  .green-divider {
+    background-color: greenyellow;
+    width: 25vw;
+    height: 0.5em;
+    margin: 2vh 0px;
+  }
+
+  .content.title-part {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 55vw;
+    margin-top: 1em;
+    box-shadow: 6px 6px 0px 0px #080808;
+  }
+  
+  .logo-wcs {
+    width: 80px!important;
+    margin: 10px;
+  }
+  
+  .logo-smartsailors {
+    width: 50px!important;
+    margin: 10px;
+  }
+}
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
